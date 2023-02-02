@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+}
+.nav_section {
+    float: right;
+    padding-top: 14px;
+    margin-right: 35px;
+}
+.header_section{
+    height: 40px;
+    background-color:#f4f6f9;
+}
+.header_section h2{
+    margin-left: 70px;
+    padding-top: 9px;
+    
+}
+.header_section h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_section a{
+    
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav_section a:hover{
+    text-decoration: underline 3px solid #4070F4;
+}
+.main_body h1{
+    color: #4070F4;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    height: 400px;
+    text-decoration: 2px solid underline;
+    
+}
+.body_image img{
+    height: 351px;
+    position: absolute;
+    width: 393px;
+    margin-left: 154px;
+    margin-top: -302px;
+
+}
+.image_box img{
+    width: 402px;
+    height: 400px;
+    z-index: 1;
+    margin-left: 184px;
+    margin-top: -400px;
+}
+.about_contents{
+    float: right;
+    margin-right: 192px;
+    margin-top: -244px;
+}
+
+.about_contents h2{
+    color:black;
+}
+.about_contents span{
+    color: #4070F4;
+   
+}
+.social_links{
+    float: right;
+    width: 408px;
+    height: 47px;
+    margin-top: 27px;
+    display: flex;
+    padding-left: 1px;
+}
+
+.link{
+    width: 36px;
+    height: 36px;
+    background-color: #4070F4;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.link .bx{
+    font-size: 25px;
+
+}
+.link a{
+    color: white;
+}
+.skill_section{
+    height: 350px;
+    background-color: rgb(218, 220, 207);
+    margin-top: 150px;
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 20px;
+
+    
+}
+.skill_section h1{
+    color:#4070F4;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: 2px solid underline;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 218px;
+
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  .skill-progress {
+    width: 50%;
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color:#4070F4;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .skill-percentage {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .education_body{
+    height: 380px;
+    background-color: rgb(218, 220, 207);
+    margin-top: 90px;
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 20px;
+
+  }
+  .education_body h1{
+    text-align: center;
+    color:#4070F4;
+    padding-top: 30px;
+    text-decoration: 2px solid underline;
+
+  }
+
+  #education {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    margin-top: 20px;
+  }
+  
+  #education h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #education li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  #education h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #education p{
+    font-weight: 600;
+  }
+.contact-section{
+    height: 600px;
+    background-color: rgb(218, 220, 207);
+    margin-top: 90px;
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 20px;
+}
+  .contact-section h1{
+    text-align: center;
+    color:#4070F4;
+    padding-top: 30px;
+    text-decoration: 2px solid underline;
+  }
+.form_container{
+    text-align: center;
+    margin-top: 30px;
+  } 
+.form_container input{
+    width: 55%;
+    height: 48px;
+    padding-left: 13px;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: 22px;
+    font-weight: 600;
+  }
+ 
+.form_container textarea {
+    width: 55%;
+    height: 180px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 22px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 13px;
+    padding-top: 5px;
+    resize: none;
+  }
+  #submit{
+    width: 134px;
+    height: 41px;
+    background-color: #4070F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 385px;
+    margin-top: 10px;
+}
+.footer{
+    height: 70px;
+    background-color: rgb(218, 220, 207);
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 20px;
+}
+.footer h3{
+  color: #4070F4;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 22px;
+}
+.footer button{
+  margin-bottom: 20px;
+}
+.top_btn{
+    width: 40px;
+    height: 40px;
+    background-color: #4070F4;
+    color: white;
+    float: right;
+    border: none;
+    border-radius: 15px;
+    margin-right: -142px;
+}
+.top_btn .bx{
+    font-size: 25px;
+}
+.top_btn a{
+    color: white;
+}
